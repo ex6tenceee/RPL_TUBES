@@ -21,5 +21,30 @@ namespace TUBESRPL_inputBuku
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("Masukan Username yang benar");
+            }
+            else if (textBox2.Text == "")
+            {
+                MessageBox.Show("Masukan password yang benar");
+            }
+            else
+            {
+                if (textBox1.Text != "3terakhir" && textBox2.Text != "240202")
+                {
+                    MessageBox.Show("Masukan username dan password yang benar");
+                }
+                else
+                {
+                    this.Hide();
+                    Form2 aa = new Form2();
+                    aa.ShowDialog();
+                }
+            }
+        }
     }
 }
