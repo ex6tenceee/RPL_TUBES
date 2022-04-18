@@ -50,5 +50,12 @@ namespace TUBESRPL_inputBuku
                 }
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 bb = new Form3();
+            bb.ShowDialog();
+        }
     }
 }
