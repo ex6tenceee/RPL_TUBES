@@ -16,5 +16,19 @@ namespace TUBESRPL_inputBuku
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string nama, alamat, username, password;
+            long telp;
+
+            nama = textBox1.Text;
+            alamat = richTextBox1.Text;
+            username = textBox3.Text;
+            password = textBox4.Text;
+            telp = long.Parse(textBox2.Text);
+            MessageBox.Show("Nama : " + nama + "\nNo. Telp : " + telp + "\nAlamat : " + alamat + "\nUsername : " + username + "\nPassword : " + password);
+
+        }
     }
 }
