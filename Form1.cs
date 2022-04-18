@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace TUBESRPL_inputBuku
 {
@@ -24,6 +25,9 @@ namespace TUBESRPL_inputBuku
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Debug.Assert(textBox1.Text.Length < 20, "Username harus kurang 20 karakter");
+            Debug.Assert(textBox2.Text.Length < 10, "Pasword harus kurang dari 10 karakter");
+
             if (textBox1.Text == "")
             {
                 MessageBox.Show("Masukan Username yang benar");
