@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUBESRPL_inputBuku", "TUBESRPL_inputBuku.csproj", "{A15AE206-7A3E-4BCC-9884-41978F6E54A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUBESRPL_update_buku", "TUBESRPL_update_buku.csproj", "{A15AE206-7A3E-4BCC-9884-41978F6E54A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
