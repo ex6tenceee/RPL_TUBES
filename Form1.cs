@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TUBESRPL_inputBuku
+namespace TUBESRPL_KonfirmasiPengembalianBuku
 {
     public partial class Form1 : Form
     {
@@ -16,10 +16,16 @@ namespace TUBESRPL_inputBuku
         {
             InitializeComponent();
         }
-
-        private void label2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "")
+            {
+                MessageBox.Show("Buku Belum Dikembalikan!!!", "Message");
+            }
+            else
+            {
+                MessageBox.Show("Buku Sudah Kembali");
+            }
         }
     }
 }

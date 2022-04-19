@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TUBESRPL_inputBuku
+namespace TUBESRPL_KonfirmasiPengembalianBuku
 {
     internal static class Program
     {
